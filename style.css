@@ -1,0 +1,428 @@
+/*overriding user agent stylesheet*/
+* {
+  margin: 0;
+  font-size: 16px;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: hsl(0, 0%, 98%);
+  overflow-x: hidden;
+}
+.nav-button {
+  text-decoration: none;
+  cursor: pointer;
+}
+#nav-bar {
+  padding: 25px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  max-height: 36px;
+  z-index: 2;
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#img-intro {
+  width: 100%;
+  height: auto;
+}
+#description {
+  background: url("images/bg-pattern-intro-left-mobile.svg") top left no-repeat;
+  margin-top: -5px;
+  position: relative;
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  padding: 50px 30px;
+}
+#description-content {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 38px;
+  line-height: 50px;
+}
+.text-left {
+  text-align: left;
+}
+.paragraph {
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  line-height: 35px;
+}
+#were-different {
+  padding: 70px 40px;
+  font-family: "Karla", sans-serif;
+}
+#description-were-different {
+  background-color: white;
+  position: relative;
+}
+.bg-between-div {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  margin: auto;
+}
+#view-plans-button {
+  margin-top: 30px;
+  text-align: center;
+  background-color: transparent; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 0px 2px white;
+  box-shadow: 0px 0px 0px 2px white;
+}
+#view-plans-button:hover {
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+}
+#cards {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 75px;
+  padding: 0 20px;
+}
+.card-header {
+  font-family: "DM Serif Display", serif;
+  display: block;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.card-image {
+  max-width: 90px;
+  margin-bottom: 50px;
+}
+.card-text {
+  text-align: center;
+}
+.border-top-box {
+  height: 60px;
+  max-width: 170px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-top: 1px solid hsl(256, 26%, 20%);
+}
+#find-out-more {
+  background: url("images/bg-pattern-how-we-work-mobile.svg") top right
+    no-repeat;
+  background-color: hsl(256, 26%, 20%);
+  margin: 0 25px;
+  padding: 60px 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+#footer {
+  background: url("images/bg-pattern-footer-mobile.svg") top left no-repeat;
+  text-transform: uppercase;
+  background-size: contain;
+  background-color: hsl(0, 0%, 98%);
+  padding-top: 60px;
+  text-align: center;
+
+  font-family: "Karla", sans-serif;
+}
+.social-media-button:hover {
+  fill: #000;
+}
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+}
+.icon-facebook {
+  background: url("images/icon-facebook.svg") center no-repeat;
+}
+.icon-facebook:hover {
+  background: url("images/icon-facebook-hover.svg") center no-repeat;
+}
+.icon-instagram {
+  background: url("images/icon-instagram.svg") center no-repeat;
+}
+.icon-instagram:hover {
+  background: url("images/icon-instagram-hover.svg") center no-repeat;
+}
+.icon-twitter {
+  background: url("images/icon-twitter.svg") center no-repeat;
+}
+.icon-twitter:hover {
+  background: url("images/icon-twitter-hover.svg") center no-repeat;
+}
+.icon-pinterest {
+  background: url("images/icon-pinterest.svg") center no-repeat;
+}
+.icon-pinterest:hover {
+  background: url("images/icon-pinterest-hover.svg") center no-repeat;
+}
+.footer-links {
+  display: block;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.footer-links:hover {
+  text-decoration: underline;
+}
+.logo-social-media {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  border-bottom: 1px hsl(273, 4%, 51%) solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.border-limiter {
+  padding: 0 20px;
+}
+.footer-logo {
+  margin-bottom: 32px;
+  max-width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-section {
+  margin-bottom: 25px;
+}
+.footer-header {
+  margin-bottom: 25px;
+  color: hsl(273, 4%, 51%);
+  font-weight: 700;
+}
+#footer-sections {
+  display: flex;
+  flex-direction: column;
+}
+.text-center {
+  text-align: center;
+}
+.find-out-more-header {
+  font-size: 45px;
+  font-weight: 700;
+}
+#mobile-nav {
+  padding-top: 70px;
+  padding-bottom: 200px;
+  font-family: "Karla", sans-serif;
+  color: white;
+  background: url("images/bg-pattern-mobile-nav.svg") left no-repeat;
+  background-size: contain;
+  background-color: hsl(270, 9%, 17%);
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  margin-top: 86px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  overflow-y: hidden;
+}
+#container-nav {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+.nav-bar-links {
+  text-decoration: none;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 22px;
+}
+.margin-fixed-top-86 {
+  margin-top: 86px;
+}
+.header-pos {
+  text-align: center;
+}
+.image-intro-desktop {
+  display: none;
+}
+#nav-buttons {
+  display: none;
+}
+.bg-between-div-2 {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  #cards {
+    flex-direction: row;
+  }
+  #footer {
+    background: url("images/bg-pattern-footer-desktop.svg") top left no-repeat;
+    background-color: hsl(0, 0%, 98%);
+  }
+  #footer-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 2020px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 110px;
+  }
+  #were-different {
+    margin-top: 270px;
+  }
+  .footer-logo {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer-section {
+    text-align: left;
+  }
+  #img-intro {
+    display: none;
+  }
+  #description {
+    background: url("images/bg-pattern-intro-right-desktop.svg") top right
+      no-repeat;
+    background-color: hsl(256, 26%, 20%);
+
+    padding: 100px 150px;
+    display: flex;
+    position: relative;
+  }
+  .bg-between-div {
+    display: none;
+  }
+  .bg-between-div-2 {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    margin: auto;
+  }
+  #description-content {
+    z-index: 3;
+    width: 25%;
+  }
+  .paragraph {
+    text-align: left;
+  }
+  .header {
+    text-align: left;
+  }
+  .header-pos {
+    text-align: left;
+  }
+  .border-top-box {
+    margin: 0 0;
+  }
+  .card-image {
+    align-self: baseline;
+  }
+  .card-text {
+    text-align: left;
+  }
+  .card-header {
+    text-align: left;
+  }
+  #find-out-more {
+    background: url("images/bg-pattern-how-we-work-desktop.svg") top right
+      no-repeat;
+    background-color: hsl(256, 26%, 20%);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-social-media {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: none;
+    max-width: 1990px;
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+
+  .text-center {
+    text-align: left;
+  }
+  .margin-right {
+    margin-right: 200px;
+  }
+  .image-intro-desktop {
+    display: block;
+    width: 500px;
+    position: absolute;
+    right: 100px;
+  }
+  #container {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-button {
+    display: none;
+  }
+  #nav-buttons {
+    display: block;
+    display: flex;
+
+    align-items: center;
+  }
+  .nav-bar-links-desktop {
+    text-decoration: none;
+    color: hsl(273, 4%, 51%);
+    margin-right: 30px;
+    font-weight: 700;
+  }
+  .nav-bar-links-desktop:hover {
+    color: #000;
+  }
+  .nav-links {
+    list-style-type: none;
+  }
+  .nav-links li {
+    display: inline-block;
+    font-family: "Karla", sans-serif;
+  }
+  #view-plans-button-nav {
+    text-align: center;
+    background-color: transparent; /* Green */
+    border: none;
+    color: hsl(256, 26%, 20%);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 0px 2px hsl(256, 26%, 20%);
+    box-shadow: 0px 0px 0px 2px hsl(256, 26%, 20%);
+  }
+  #view-plans-button-nav:hover {
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+  }
+}
